@@ -1,0 +1,27 @@
+GET http://localhost:3000/users
+
+###
+
+GET http://localhost:3000/users/5ea1832bc301e308c4b9e298
+
+###
+
+POST http://localhost:3000/users/
+Content-Type: application/json
+
+{
+    "name" : "Paw",
+    "esUnCapo" : "Joan"
+}
+
+###
+DELETE http://localhost:3000/users/5ea1865687f0421ea8f96397
+
+###
+
+PATCH http://localhost:3000/users/5ea184398b00f62c2cb19b95
+Content-Type: application/json
+
+{
+    "name" : "Carlos"
+}
