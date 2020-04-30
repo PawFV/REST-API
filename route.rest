@@ -2,16 +2,16 @@ GET http://localhost:3000/users
 
 ###
 
-GET http://localhost:3000/users/5ea1832bc301e308c4b9e298
+GET http://localhost:3000/users/5ea5f4757ea4572744c19caf
 
 ###
 
-POST http://localhost:3000/users/
+POST http://localhost:3000/users
 Content-Type: application/json
 
 {
-    "name" : "Paw",
-    "esUnCapo" : "Joan"
+    "name" : "Belu",
+    "email" : "paasdw@asdh.asd"
 }
 
 ###
